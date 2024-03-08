@@ -341,3 +341,17 @@ footer {
         }
 
 }
+
+@media screen and (max-width: 500px) {
+    footer {
+        display: grid;
+    }
+
+    .footer_vasen {
+        padding-left: 20px;
+    }
+
+    .footer_oikea {
+        padding-left: 20px;
+    }
+}

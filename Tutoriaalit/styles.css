@@ -130,6 +130,7 @@ footer {
 
 .footer_vasen {
     padding-top: 20px;
+    padding-left: 40px;
 }
 
 .footer_otsikko {
@@ -155,7 +156,8 @@ footer {
 
 
 .footer_oikea {
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
 }
 
 .some_otsikko {
@@ -240,4 +242,18 @@ footer {
         width: 40px;
     }
 
+}
+
+@media screen and (max-width: 500px) {
+    footer {
+        display: grid;
+    }
+
+    .footer_vasen {
+        padding-left: 20px;
+    }
+
+    .footer_oikea {
+        padding-left: 20px;
+    }
 }
