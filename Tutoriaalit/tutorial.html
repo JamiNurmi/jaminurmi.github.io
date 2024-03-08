@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Tutoriaalit</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+    <div class="ylapalkki">
+        <h1 class="otsikko">Jami Nurmi</h1>
+        <div class="linkit">
+            <a href="../index.html">
+                <div class="linkki">Etusivu</div>
+            </a>
+            <a href="../Ansioluettelo/cv.html">
+                <div class="linkki">Ansioluetteloni</div>
+            </a>
+            <a href="../Tutoriaalit/tutorial.html">
+                <div class="valittulinkki">Koodi Tutoriaalit</div>
+            </a>
+            <a href="../Byjaminurmi/byjaminurmi.html">
+                <div class="linkki">Byjaminurmi</div>
+            </a>
+        </div>
+    </div>
+    
+    <div class="content">
+        <div class="first-content">
+            <h1>Html</h1>
+            <p>
+                Html-layout<br>
+                Aloitetaan Html layout-koodilla. Tällä on helppo aloitaa html-sivu. <br>
+                Tähän on myös käytössä komento "!".
+            </p>
+            <div class="html">
+
+                <span><</span>!DOCTYPE html><br>
+                <span><</span>html lang="en"><br>
+                <span><</span>head ><br>
+                <span><</span>meta charset="UTF-8"><br>
+                <span><</span>meta name="viewport" content="width=device-width, initial-scale=1.0"><br>
+                <span><</span>title>Document<span><</span>/title><br>
+                <span><</span>/head><br>
+                <span><</span>body><br>
+                <br>
+                <span><</span>/body><br>
+                <span><</span>/html> 
+            </div>
+
+            <p>
+                Button<br>
+                Tähän on myös käytössä komento "button".
+            </p>
+
+            <div class="html">
+                <span><</span>body><br><br>
+                    
+                    <span><</span>button>Click Me<span>></span>/button><br><br>
+
+                <span>></span>/body>
+            </div>
+
+            <p>
+                Linkki <br>
+                Tähän on myös käytössä komento "a".
+            </p>
+
+            <div class="html">
+                <span><</span>body><br><br>
+                    
+                    <span><</span>a href=""><span><</span>/a><br><br>
+
+                <span><</span>/body>
+            </div>
+        </div>
+        <div class="second-content">
+            <h1>Css</h1>
+            <p>
+                Ensimmäiseksi linkataan css-tiedosto html:ään.
+            </p>
+            <div class="css">
+                <span><</span>head><br><br>
+
+                <span><</span>link rel="stylesheet" type="text/css" href="tiedosto.css"/><br><br>
+
+                <span><</span>/head>
+            </div>
+
+            <p>
+                Tehdään body-elementille määritykset
+            </p>
+            <div class="css">
+                body { <br>
+                    margin: 0; <br>
+                    padding: 0; <br>
+                }                
+            </div>
+
+            <p>
+                Tehdään buttonille määritykset
+            </p>
+            <div class="css">
+                button {<br>
+                    background-color: gray<br>
+                    border: none;<br>
+                    color: white;<br>
+                    padding: 15px 32px;<br>
+                    text-align: center;<br>
+                    text-decoration: none;<br>
+                    display: inline-block;<br>
+                    font-size: 16px;<br>
+                  }
+            </div>
+        </div>
+        <div class="third-content">
+            <h1>Javascript</h1>
+            <p>
+                Ensimmäiseksi linkataan js-tiedosto html:ään
+            </p>
+            <div class="java">
+                <span><</span>head><br><br>
+
+                    <span><</span>script src="tiedosto.js"><br><br>
+
+                <span><</span>/head>
+            </div>
+
+            <p>
+                Alert <br>
+                Tehdään alert-funktio kun buttonia painetaan.
+            </p>
+            <div class="html-java">
+                <p>
+                    Html<br>
+                    Lisätään buttoniin onclick() funktio.
+                </p>
+                <span><</span>body><br><br>
+                    
+                <span><</span>button onclick="alert()">Click Me<span>></span>/button><br><br>
+
+                <span>></span>/body>
+
+                <p>Javascript</p>
+
+                function alert() { <br>
+                    alert("Hello World!");<br>
+                }
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer_vasen">
+            <h1 class="footer_otsikko">
+                Jami Nurmi
+            </h1>
+            <div class="footer_tiedot">
+                <div>Yhteystiedot</div>
+                <div>045 223 7670</div>
+                <div>Sähköposti</div>
+                <div>etunimi.sukunimi2@gmail.com</div>
+            </div>
+        </div>
+        <div class="flex-grow"></div>
+        <div class="footer_oikea">
+            <h1 class="some_otsikko">Seuraa minua</h1>
+            <div class="somet">
+                <div class="some">
+                  <a class="somekuva" href="https://www.instagram.com/jami.nurmi/">
+                    <img class="footer_img" src="Images/Instagram.JPG" alt="Instagram">
+                  </a>
+                  <a class="somelinkki" href="https://www.instagram.com/jami.nurmi/"><div>Instagramissa</div></a>
+                </div>
+                <div class="some">
+                  <a class="somekuva" href="https://www.threads.net/@jami.nurmi">
+                    <img class="footer_img" src="Images/Threads.JPG" alt="Threads">
+                  </a>
+                  <a class="somelinkki" href="https://www.threads.net/@jami.nurmi"><div>Threadsissa</div></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

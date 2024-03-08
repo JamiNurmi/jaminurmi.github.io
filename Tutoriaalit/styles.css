@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.ylapalkki {
+    width: 100%;
+    padding-top: 5px;
+    column-gap: 20px;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.linkit {
+    width: 100%;
+    height: 40px;
+    column-gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.valittulinkki {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: gray;
+    text-decoration: underline;
+}
+
+.linkki {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+    text-decoration: none;
+}
+
+.linkki:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+.otsikko {
+    padding-top: 3px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.content {
+    margin: auto;
+    padding-top: 80px;
+    width: 60%;
+    height: auto;
+}
+
+.first-content {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+ p, h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.html {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.second-content {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.css {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+.third-content {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.java {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.html-java {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    height: 270px;
+    background-color: rgb(243, 243, 243);
+}
+
+.footer_vasen {
+    padding-top: 20px;
+}
+
+.footer_otsikko {
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: black;
+}
+
+.footer_tiedot {
+    display: grid;
+    row-gap: 7px;
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+}
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+
+.footer_oikea {
+    padding: 20px;
+}
+
+.some_otsikko {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    color: black;
+}
+
+.somet {
+    display: grid;
+    row-gap: 5px;
+}
+
+.some {
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: bolder;
+    color: black;
+}
+
+.somekuva {
+    width: 55px;
+}
+
+.somelinkki {
+    color: black;
+}
+
+.footer_img {
+    width: 80%;
+}
+
+@media screen and (max-width: 550px) {
+
+    .otsikko {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    
+    .linkit {
+        height: auto;
+        row-gap: 20px;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 15px;
+    }
+
+    .linkki {
+        font-size: 18px;
+    }
+
+    .content {
+        width: 90%;
+        padding-top: 130px;
+    }
+
+    footer {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .footer_otsikko {
+        font-size: 18px;
+    }
+
+    .footer_tiedot {
+        font-size: 14px;
+    }
+
+    .some_otsikko {
+        font-size: 18px;
+    }
+    .some {
+        font-size: 14px;
+    }
+
+    .somekuva {
+        width: 40px;
+    }
+
+}
