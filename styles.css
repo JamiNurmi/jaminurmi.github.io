@@ -1,3 +1,6 @@
+
+    /* Ison näytön määritykset */
+
 body {
     margin: 0;
     padding: 0;
@@ -172,7 +175,8 @@ footer {
     width: 80%;
 }
 
-/* Tablet screen 900 */
+/* Kun näyttö on max 900px leveä */
+/* Tablet screen */
 
 @media screen and (max-width: 900px) {
 
@@ -247,7 +251,8 @@ footer {
 
 }
 
-/* Tablet screen 650 */
+/* Kun näyttö on max 650px leveä */
+/* Tablet screen */
 
 @media screen and (max-width: 650px) {
 
@@ -258,7 +263,8 @@ footer {
 
     }
 
-    /* Phone screen 500 */
+    /* Kun näyttö on max 550px leveä */
+    /* Phone screen */
 
     @media screen and (max-width: 550px) {
 
@@ -341,6 +347,8 @@ footer {
         }
 
 }
+
+/* Kun näyttö on max 500px leveä */
 
 @media screen and (max-width: 500px) {
     footer {

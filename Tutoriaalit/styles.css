@@ -1,3 +1,6 @@
+
+    /* Ison näytön määritykset */
+
 body {
     margin: 0;
     padding: 0;
@@ -192,6 +195,9 @@ footer {
 .footer_img {
     width: 80%;
 }
+
+/* Kun näyttö on max 550px leveä */
+/* Phone screen */
 
 @media screen and (max-width: 550px) {
 
