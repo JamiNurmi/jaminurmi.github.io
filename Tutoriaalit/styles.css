@@ -137,7 +137,6 @@ footer {
 }
 
 .footer_otsikko {
-    padding-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     color: black;
@@ -146,7 +145,6 @@ footer {
 .footer_tiedot {
     display: grid;
     row-gap: 7px;
-    padding-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bolder;
